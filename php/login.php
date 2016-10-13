@@ -17,10 +17,10 @@ ini_set('output_buffering', 0);   // Do not buffer outputs, write directly
 
 
 /* Database connection details */
-$host 		= 'localhost';
-$user 		= 'root';
-$pass 		= 'root';
-$db 	 	= 'PDO';
+$host 		= 'host';
+$user 		= 'username';
+$pass 		= 'password';
+$db 	 	= 'database';
 
 $sql        = 'SELECT p.password AS password, u.name AS name
                     FROM passwords AS p
